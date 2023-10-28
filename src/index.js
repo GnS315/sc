@@ -2,6 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import {createGlobalStyle} from 'styled-components'
+
+/*
+* createGlobalStyle позволяет нам создавать глобальные стили
+* */
+
 const Global = createGlobalStyle`
 * {
     margin: 0;
