@@ -1,5 +1,6 @@
-import styled from 'styled-components'
-import Title from "./components/Title";
+import styled from 'styled-components';
+import Title from './components/Title';
+import Button from './components/Button';
 
 const AppWrapper = styled.div`
   width: 100%;
@@ -11,7 +12,8 @@ const AppWrapper = styled.div`
 function App() {
     return (
         <AppWrapper>
-            <Title color={'white'}> asdasd</Title>
+            <Title color={'white'}>Заголовок</Title>
+            <Button outlined color={'red'}>Кнопка</Button>
         </AppWrapper>
   );
 }
